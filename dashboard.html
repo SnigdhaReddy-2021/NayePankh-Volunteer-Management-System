@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NayePankh Admin Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+display:flex;
+background:#f4f7fc;
+}
+
+.sidebar{
+width:250px;
+height:100vh;
+background:#1565c0;
+color:white;
+padding:20px;
+position:fixed;
+}
+
+.sidebar h2{
+margin-bottom:30px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar ul li{
+padding:15px 0;
+border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.sidebar ul li a{
+text-decoration:none;
+color:white;
+}
+
+.main{
+margin-left:250px;
+padding:30px;
+width:100%;
+}
+
+.header{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+margin-bottom:25px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+width:250px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h2{
+color:#1565c0;
+font-size:40px;
+}
+
+.table-section{
+margin-top:30px;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table th{
+background:#1565c0;
+color:white;
+padding:12px;
+}
+
+table td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+
+.btn{
+background:#1565c0;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-top:15px;
+}
+
+.btn:hover{
+background:#0d47a1;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>NayePankh</h2>
+
+<ul>
+<li><a href="#">Dashboard</a></li>
+<li><a href="#">Volunteers</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Reports</a></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="login.html">Logout</a></li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+<h1>Admin Dashboard</h1>
+<p>Welcome to NayePankh Foundation Volunteer Management System</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>500+</h2>
+<p>Volunteers</p>
+</div>
+
+<div class="card">
+<h2>350+</h2>
+<p>Internships</p>
+</div>
+
+<div class="card">
+<h2>50+</h2>
+<p>Events</p>
+</div>
+
+<div class="card">
+<h2>1000+</h2>
+<p>Beneficiaries</p>
+</div>
+
+</div>
+
+<div class="table-section">
+
+<h2>Volunteer Records</h2>
+
+<br>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>College</th>
+<th>Skills</th>
+</tr>
+
+<tr>
+<td>Rahul Sharma</td>
+<td>ABC Engineering College</td>
+<td>Python, AI</td>
+</tr>
+
+<tr>
+<td>Sneha Reddy</td>
+<td>XYZ University</td>
+<td>Web Development</td>
+</tr>
+
+<tr>
+<td>Vikram Kumar</td>
+<td>LMN Institute</td>
+<td>Java, Backend</td>
+</tr>
+
+</table>
+
+<button class="btn">
+Download Report
+</button>
+
+</div>
+
+</div>
+
+</body>
+</html>

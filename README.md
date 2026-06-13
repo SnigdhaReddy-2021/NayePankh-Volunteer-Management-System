@@ -1,4 +1,3 @@
-# NayePankh-Volunteer-Management-System
 # NayePankh Volunteer Management System
 
 ## Overview

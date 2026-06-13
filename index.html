@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NayePankh Foundation</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+NayePankh Foundation
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#volunteer">Volunteer</a></li>
+<li><a href="#chatbot">AI Assistant</a></li>
+<li><a href="login.html">Admin Login</a></li>
+</ul>
+
+<button id="darkModeBtn">🌙 Dark Mode</button>
+
+</nav>
+
+<section class="hero">
+
+<h1>Empowering Youth Through Volunteering</h1>
+
+<p>
+Join NayePankh Foundation and help create positive social impact through education, awareness and community service.
+</p>
+
+<a href="#volunteer">
+<button class="hero-btn">
+Join as Volunteer
+</button>
+</a>
+
+</section>
+
+<section class="stats">
+
+<div class="card">
+<h2>500+</h2>
+<p>Volunteers</p>
+</div>
+
+<div class="card">
+<h2>50+</h2>
+<p>Events Conducted</p>
+</div>
+
+<div class="card">
+<h2>1000+</h2>
+<p>Beneficiaries</p>
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>About NayePankh Foundation</h2>
+
+<p>
+NayePankh Foundation is committed to empowering youth through education, social awareness, volunteering opportunities and community development initiatives. The organization encourages students to participate in meaningful projects that create positive social impact.
+</p>
+
+</section>
+
+<section class="form-section" id="volunteer">
+
+<h2>Volunteer Registration</h2>
+
+<form id="volunteerForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<input type="text" id="college" placeholder="College Name" required>
+
+<input type="text" id="skills" placeholder="Skills" required>
+
+<button type="submit">
+Register Now
+</button>
+
+</form>
+
+</section>
+
+<section class="chatbot" id="chatbot">
+
+<h2>AI Assistant</h2>
+
+<input type="text"
+id="userInput"
+placeholder="Ask about volunteering, internships or contact information">
+
+<button onclick="chatBot()">
+Ask AI
+</button>
+
+<p id="botResponse"></p>
+
+</section>
+
+<footer>
+
+<h3>NayePankh Foundation</h3>
+
+<p>
+Building a better future through youth empowerment and volunteering.
+</p>
+
+<br>
+
+<p>
+© 2026 NayePankh Foundation. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
